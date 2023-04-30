@@ -225,7 +225,7 @@ def main(
     
     
     st.markdown("<h1 style='text-align: center; '>Поздравление от коллектива ЦАР</h1>", unsafe_allow_html = True)
-    st.image('ann.gif',width=710)
+    st.image('ann.gif',width=500)
     #st.write("Рад приветствовать Вас ! Курс интенсивный и сложный, поэтому от Вас необходима полная самоотдача и огромное желание вникать в тематику. Желаю усидчивости, позитива и спортивной злости, ведь этот курс очень похож на реальное спортивное соревнование, по итогам которого будет определён победитель. Per aspera ad astra !")
     
     #st_player("https://www.youtube.com/watch?v=i2jwZcWicSY")
@@ -242,7 +242,7 @@ def main(
         #st.write('Респект, возможность получения работы по направлению "Data Sсience", развитые компетенции в аналитике данных :sunglasses:.')
         time.sleep(2.5)
         st.markdown("Поднимаем этот скромный бокальчик за тебя!", unsafe_allow_html = True)
-        st.image('leo.gif',width=710)
+        st.image('leo.gif',width=500)
         #st.markdown("Выбор за Вами !", unsafe_allow_html = True)
         st.balloons()
         st_player("https://soundcloud.com/alekvolg/anya")
@@ -250,10 +250,7 @@ def main(
         st.balloons()
         time.sleep(2.5)
         st.balloons()
-        time.sleep(2.5)
-        st.balloons()
-        time.sleep(2.5)
-        st.balloons()
+       
 
 if __name__ == '__main__':
     main(rain)
