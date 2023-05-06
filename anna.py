@@ -235,7 +235,7 @@ def main(
     if st.button("Нажми кнопку! Там есть пару сюрпризов."):
         
         
-        video_file = open('ann.mp4', 'rb')
+        video_file = open('anna.mp4', 'rb')
         video_bytes = video_file.read()
 
         st.video(video_bytes)
